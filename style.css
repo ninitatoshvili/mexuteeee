@@ -1,0 +1,95 @@
+.logo{
+	width: 100px;
+	display: inline-block;
+}
+nav, li{
+	display: inline-block;
+}
+.logo , nav{
+	vertical-align: middle;
+}
+nav{
+	margin-left: 60px;
+}
+li{
+	margin-right: 30px;
+}
+body{
+	font-family: "BPG Algeti Compact", sans-serif;
+}
+header{
+	width: 100%;
+	padding: 30px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+nav a{
+	color: #3D58A6;
+	transition: color .3s;
+	text-decoration: none;
+}
+nav .active a{
+	color: red;
+}
+nav a:hover{
+	color: #ccc
+}
+.banner{
+	width: 90%;
+	padding-left: 30px;
+}
+.banerpoto{
+	width: 100%;
+}
+h4{
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	margin-top: 80px;
+	padding-left: 30px;
+	margin-bottom: 40px;
+}
+.informacia{
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+.popular{
+	display: inline-block;
+	width: 45%;
+	background-color: #f2f2f2;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+
+}
+h1{
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	color: #3D58A6;
+	margin-bottom: 15px;
+}
+.facebook , .youtube{
+	display: inline-block;
+}
+.facebook{
+	width: 14px;
+	border-right: 2px solid #3D58A6;
+	padding-right: 30px;
+}
+.youtube{
+	width: 25px;
+	padding-left: 30px;
+}
+footer{
+	padding-left: 30px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%
+        padding-left 30px;
+    }
+    .popular{
+    	width: 100%;
+    	margin-top: 20px;
+    }
+    nav{
+    	display: none;
+    }
+}
